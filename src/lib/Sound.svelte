@@ -14,7 +14,7 @@
 </script>
 
 <button on:click={playRandomSound}>
-    Play bitch
+    Let's slay, darling
 </button>
 
 <audio bind:this={audioPlayer} id="dont-please"></audio>
