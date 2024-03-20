@@ -1,7 +1,7 @@
 
 # Slay, Ariana
 
-💅🔥 Tiny soundbox containing sassiest Ariana Grande's sounds ever
+💅🔥 Tiny soundboard containing the sassiest Ariana Grande's sounds ever
 
 
 ## Author
