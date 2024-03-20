@@ -1,9 +1,11 @@
 <script lang="ts">
-    import Ariana from "./lib/Ariana.svelte";
+    import Ariana from './lib/Ariana.svelte';
+    import Sound from './lib/Sound.svelte'
 </script>
 
 <main>
     <h1>Slay, Ariana 💅</h1>
+    <Sound />
     <Ariana/>
 </main>
 
