@@ -4,12 +4,12 @@
     let audioPlayer: HTMLAudioElement;
 
     const sounds = [yuhAudio];
-    const playRandomSound = () => {
+    const playRandomSound = async () => {
         if (!audioPlayer) {
             return;
         }
+        await audioPlayer.play();
         audioPlayer.src = sounds[Math.floor(Math.random() * sounds.length)];
-        audioPlayer.play();
     }
 </script>
 
@@ -17,4 +17,8 @@
     Let's slay, darling
 </button>
 
-<audio bind:this={audioPlayer} id="dont-please"></audio>
+<audio bind:this={audioPlayer}
+       id="dont-please"
+       src={yuhAudio}
+       preload="auto"
+></audio>
